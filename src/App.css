@@ -8,7 +8,7 @@ html, body, .App, #root {
 .breadcrumb{
     margin: 0; 
 }
-.main{
+.main ,.content , .content>div{
     
     height:80% ;
     width:100%;
@@ -43,6 +43,63 @@ html, body, .App, #root {
     width: 35%;
 }
 .content{
-    padding:2%;
+
+    width: 70%;
     overflow: auto;
 }
+.content, .content>div {
+    height:100%;    
+}
+.chronoSection{
+    display: inline-flex;
+    min-height: 3em;
+    width: 100%;
+}
+
+.timeDiv{
+    background-color: rgba(203, 200, 200, 0.664);
+    color: rgb(114, 114, 114);
+    width: 27%;
+    text-align: center;
+    padding:1%;
+    font-size: 0.7vw;
+
+
+}
+.timeSection{
+    width: 78%;
+    padding: 1%;
+}
+.timeDiv, .timeSection{
+    border-left: 0;
+    border-right: 0;
+}
+.ressourcesSection{
+    display:flex;
+}
+.ressourcesSection img{
+    margin:2%;
+    max-width:30%;
+    height: fit-content;
+}
+.ressourcesSection div {
+    width:100%;
+    height: fit-content;
+}
+.ressourcesSection div div {
+   padding:10%;
+   padding-left: 30%;
+}
+.ressourcesSection a{
+    border:none;
+    padding:5%;
+    cursor: pointer;
+    box-shadow:1px 1px 5px 1px rgba(128, 128, 128, 0.594) ;
+}
+.ressourcesSection a img{
+    animation: transform 200ms ease-in;
+}
+.ressourcesSection a:hover img{
+    transform: translate(25%);
+}
+

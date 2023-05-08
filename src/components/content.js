@@ -1,7 +1,7 @@
 import React from "react";
-import Experience from "./sections/experience";
-import Skills from "./sections/skills";
 import Education from "./sections/education";
+import Skills from "./sections/skills";
+import Experience from "./sections/experience";
 
 
 function Content({section}) {

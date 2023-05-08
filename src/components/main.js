@@ -10,7 +10,7 @@ function Main() {
     function mainPage(sec){
         return (<div>
                     <SideBar  section = {sec} />
-                    <Content  section = {sec}/>
+                    <Content  section = {sec} />
                 </div>
         )
     }
