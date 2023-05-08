@@ -2,7 +2,7 @@ import React from "react";
 import data from "../../ressources/data/experience.json"
 
 
-function Experience({section}) {
+function Experience() {
 
     let experiences=[]
     data.map((d,i)=>{

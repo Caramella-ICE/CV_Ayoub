@@ -3,13 +3,11 @@ html, body, .App, #root {
     padding: 0; 
     width: 100%; 
     height: 100%;
-    overflow: auto;
 }
 .breadcrumb{
     margin: 0; 
 }
-.main ,.content , .content>div{
-    
+.main{
     height:80% ;
     width:100%;
     overflow: auto;
@@ -20,7 +18,7 @@ html, body, .App, #root {
     display: inline-flex;
 }
 .sideBar{
-    width:30%;
+    width:25%;
     background-color: #2b6cad;
     padding:1%;
 }
@@ -43,8 +41,8 @@ html, body, .App, #root {
     width: 35%;
 }
 .content{
-
-    width: 70%;
+    width: 75%;
+    height: 100%;
     overflow: auto;
 }
 .content, .content>div {
@@ -62,7 +60,9 @@ html, body, .App, #root {
     width: 27%;
     text-align: center;
     padding:1%;
-    font-size: 0.7vw;
+    font-size: 0.6vw;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 
 
 }
@@ -102,4 +102,60 @@ html, body, .App, #root {
 .ressourcesSection a:hover img{
     transform: translate(25%);
 }
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    padding:5%;
+    overflow-x: hidden;
+}
+.skill{
+    width: 4em ;
+    height: 4em;
+    margin: 3%;
 
+}
+.imgSkill{
+    margin: 0 auto;
+    width: fit-content;
+    height: 85%;
+}
+.imgSkill img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.rating{
+    margin-top: 5%;
+    width: 100%;
+    height: 15%;
+    display: flex;
+}
+.rating div{
+    width:20%;
+    height:100%;
+}
+[data-title]:hover:after {
+    opacity: 1;
+    transition: all 0.1s ease 0.5s;
+    visibility: visible;
+}
+[data-title]:after {
+    content: attr(data-title);
+    background-color: #f9fdf9;
+    border-radius: 2px;
+    color: #050505;
+    font-size: 150%;
+    position: absolute;
+    padding: 2px 6px 3px 6px;
+    bottom: -1.6em;
+    left: 100%;
+    white-space: nowrap;
+    box-shadow: 1px 1px 3px #222222;
+    opacity: 0;
+    border: 1px solid #111111;
+    z-index: 99999;
+    visibility: hidden;
+}
+[data-title] {
+    position: relative;
+}
