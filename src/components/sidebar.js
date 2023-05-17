@@ -1,14 +1,18 @@
 import React from "react";
 import photo from "../ressources/img/photo_aaz.png"
 import { useEffect } from "react";
-
+import menuIcon from "../ressources/img/menu_reponsive.png"
 
 function SideBar({section}) {
 
 
 
     return ( <div className="sideBar">
+      <div className="menu">
+          <img src={menuIcon} />
+        </div>
       <div className="profile">
+        
         <div>
           <img src={photo}/>
         </div>
