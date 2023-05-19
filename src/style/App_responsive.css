@@ -1,5 +1,7 @@
+
+
 @media (max-width: 600px) {
-    html, body, .App, #root { 
+    html, body, .App{ 
         margin: 0; 
         padding: 0; 
         width: 100%; 
@@ -7,6 +9,7 @@
         font-family: Arial, Helvetica, sans-serif;
         overflow: auto;
     }
+    
     
     .header{
         width: 100%;
@@ -22,7 +25,8 @@
     }
     .header p{
         margin: 0 auto;
-        font-size: 3vw
+        font-size: 3vw;
+        margin: 3%;
     }
     .header div{
         display: inline-flex;
@@ -44,9 +48,13 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        padding:1%;
-        font-size: 80%;
+
     
+    }
+    .footer p{
+        padding:2%;
+        height: 100%;
+        font-size: 90%;
     }
     .main{
         margin-top:10vw;
@@ -95,8 +103,8 @@
         transform: scale(-1, -1);
     }
     .timeSection{
-        width: 78%;
-        padding: 1%;
+        width: 93%;
+        padding: 2%;
         height: fit-content;
     }
     .timeSection h5 img{
@@ -113,7 +121,7 @@
     .ressourcesSection img{
         margin:2%;
         max-width:50%;
-        height: fit-content;
+        height: 100%;
     }
     .ressourcesSection div {
         width:100%;
@@ -130,6 +138,8 @@
         box-shadow:1px 1px 5px 1px rgba(128, 128, 128, 0.594) ;
     }
     .ressourcesSection a img{
+        width:10%;
+        height:10%;
         animation: transform 200ms ease-in;
     }
     .ressourcesSection a:hover img{
