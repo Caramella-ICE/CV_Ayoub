@@ -42,7 +42,7 @@ function SideBar({section}) {
           </div>
           <div>
             <h3 style={{maxWidth: "100%"}}>AZZOUZI Ayoub</h3>
-            <h6>Fresh graduate Software Engineer</h6>
+            <h6>Software Engineer</h6>
           </div>
         </div>
           <ul className="nav flex-column flex-sm-column " >
