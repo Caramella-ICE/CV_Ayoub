@@ -1,0 +1,68 @@
+@media (max-width: 600px) {
+
+    .sideBar{
+        width:100%;
+        background-color: #2b6cad;
+        padding:0.3%;
+        position: sticky;
+        top: 10vw;
+        z-index: 50;
+        max-height: 50vw;
+        transition: max-height 500ms ease-in-out  ;
+        
+    }
+    #menuSections{
+        display: none; 
+    }
+
+    .sideBar .menu{
+        display: block;  
+        margin: 0 auto;
+        width: 7vw;
+    }
+    .sideBar .menu img{
+        width: 100%;
+    }
+    .nav_arrow{
+        display:block;
+        height: 5vw;
+        width: fit-content;
+        margin:3% auto;
+        border:none;
+        background-color: transparent;
+    }
+
+    .nav_arrow img{
+        height: 100%;     
+        transform: rotate(0.25turn);
+        transition: transform 330ms ease-in-out;
+    }
+    .nav_arrow:focus {
+        outline: none;
+    }
+
+    .nav{
+        text-align: center;
+    }
+
+    .sideBar .nav-link, .profile{
+        color: white;
+    }
+    .sideBar .nav-link{
+        transition: transform 330ms ease-in-out;   
+    }
+    .sideBar .nav-link:hover{
+        opacity: 0.9;
+        transform: translate(5%);  
+    }
+    .profile div{
+        margin: 10% auto;
+        text-align: center;
+    }
+    .profile img{
+        border-radius: 50%;
+        width: 35%;
+    }
+
+
+}

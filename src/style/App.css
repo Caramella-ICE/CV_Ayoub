@@ -12,22 +12,25 @@ html, body, .App, #root {
     height:7%;
     background-color: #e2e2e2;
     color:#696969;
-    display: flex;
-    font-size: 1vw;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 100%;
 }
 .header p{
     margin: 0 auto;
 }
 .header div{
-    padding:1%;
+
     display: inline-flex;
+    height: 60%;
+    margin: 1%;
     align-items: center;
-        justify-content: center;
+    justify-content: center;
 }
 .header img{
-    margin-left: 5%;
-    margin-right: 5%;
-    height: 60%;
+    margin-right: 3%;
+    height: 100%;
 }
 .footer{
     width:100%;
@@ -45,7 +48,6 @@ html, body, .App, #root {
 .main{
     height:87% ;
     width:100%;
-    overflow: auto;
 }
 .main>div{
     height:100% ;
@@ -56,6 +58,9 @@ html, body, .App, #root {
     width:25%;
     background-color: #2b6cad;
     padding:1%;
+}
+.sideBar .menu{
+    display: none;
 }
 
 .sideBar .nav-link, .profile{
@@ -76,6 +81,10 @@ html, body, .App, #root {
     border-radius: 50%;
     width: 35%;
 }
+.nav_arrow{
+    display:none;
+}
+
 .content{
     width: 75%;
     height: 100%;
@@ -84,9 +93,13 @@ html, body, .App, #root {
 .content, .content>div {
     height:100%;    
 }
+.experience, .education{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 .chronoSection{
     display: inline-flex;
-    min-height: 3em;
     width: 100%;
 }
 
@@ -99,12 +112,18 @@ html, body, .App, #root {
     font-size: 0.6vw;
     font-weight: bolder;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-
-
 }
+
+
+
 .timeSection{
     width: 78%;
     padding: 1%;
+    height: fit-content;
+}
+.timeSection h5 img{
+    width: 1.5vw;
+    margin-right: 3%;
 }
 .timeDiv, .timeSection{
     border-left: 0;

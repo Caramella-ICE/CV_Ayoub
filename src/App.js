@@ -4,7 +4,7 @@ import Footer from './components/footer' ;
 import Main from './components/main' ;
 import './style/App.css';
 import './style/App_responsive.css';
-
+import './style/SideBar_responsive.css';
 
 function App() {
   return (

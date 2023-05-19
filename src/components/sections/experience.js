@@ -8,12 +8,12 @@ function Experience() {
     data.map((d,i)=>{
         experiences.push(<div key={i} className="chronoSection">
         <div className="timeDiv">
-            {d.date}
+            <p>{d.date}</p>
         </div>
         <div className="timeSection">
             <h3>{d.title}</h3>
-            <h5><img  style={{width:'1.5%', marginRight: "3%"}} src="https://cdn-icons-png.flaticon.com/512/64/64665.png"/>{d.location}</h5>
-            <h5><img  style={{width:'1.5%', marginRight: "3%"}} src="https://icons.veryicon.com/png/o/object/material-design-icons/work-15.png"/>{d.type}</h5>
+            <h5><img   src="https://cdn-icons-png.flaticon.com/512/64/64665.png"/>{d.location}</h5>
+            <h5><img   src="https://icons.veryicon.com/png/o/object/material-design-icons/work-15.png"/>{d.type}</h5>
             <p>{d.description}</p>
             <div className="ressourcesSection">
                 <img src={d.img} />
