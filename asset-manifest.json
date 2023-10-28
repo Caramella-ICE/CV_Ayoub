@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/CV_Ayoub/static/css/main.d57669c7.css",
+    "main.js": "/CV_Ayoub/static/js/main.7048320b.js",
+    "static/media/photo_aaz.png": "/CV_Ayoub/static/media/photo_aaz.2b04015b00b3ce37859a.png",
+    "static/media/menu_reponsive.png": "/CV_Ayoub/static/media/menu_reponsive.8d822e2599a65e63ab69.png",
+    "index.html": "/CV_Ayoub/index.html",
+    "main.d57669c7.css.map": "/CV_Ayoub/static/css/main.d57669c7.css.map",
+    "main.7048320b.js.map": "/CV_Ayoub/static/js/main.7048320b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d57669c7.css",
+    "static/js/main.7048320b.js"
+  ]
+}
